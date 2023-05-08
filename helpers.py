@@ -69,6 +69,7 @@ def get_songs():
     does a search query from spotify for every song and adds it into an array and will be called 
     by the playlist maker to put the songs in a playlist
     '''
+    # to do 
     pass
 
 
@@ -77,6 +78,7 @@ def return_playlist_link():
     '''
     return the playlist link to the user 
     '''
+    # to do
     pass
 
 
