@@ -3,8 +3,9 @@ import './Banner.css'; // Import the CSS file for styling (you can customize sty
 
 interface BannerProps {
   message: string;
-  backgroundColor?: string;
-  textColor?: string;
+  backgroundColor: string;
+  textColor: string;
+
 }
 
 const Banner: React.FC<BannerProps> = ({
@@ -15,11 +16,12 @@ const Banner: React.FC<BannerProps> = ({
   const bannerStyle = {
     backgroundColor,
     color: textColor,
+    boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)', 
   };
 
   return (
     <div className="banner" style={bannerStyle}>
-      <p>Convert Spotify Music Playlist to Youtube Video playlist</p>
+      <p>Spotify Music playlist to Youtube Video Playlist</p>
     </div>
   );
 };
