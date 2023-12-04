@@ -13,7 +13,7 @@ const SubmitButton: React.FC <SubmitButtonProps>= ({
     const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
     //route API for onClick action to do the search action
-    // use the 
+    // use the spotifyLink prop 
     const onClick = () =>{
         setIsButtonDisabled((prevValue) => !prevValue);
     };
